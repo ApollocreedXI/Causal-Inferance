@@ -19,6 +19,18 @@ Ordinary least squares is one of the main methods employed, and its purpose in t
 The method employed to evaluate the causality between financial literacy and financial well-being is double machine learning. This method attempts to partial out the effects of the confounders from the treatment (i.e., being financially literate in this case) and financial well-being. With the effect of the confounders removed on the treatment and financial well-being, the average treatment effect of being financially literate on financial well-being can be estimated to gather causal insights. 
 
 
+## Other Key Findings
+<img width="499" height="570" alt="image" src="https://github.com/user-attachments/assets/faf60542-2ba3-4b8f-89d1-aa278ccbe8aa" />
+
+About 1/3 of respondents are financially literate. This corroborates the findings of the S&P Ratings Services Global Financial Literacy Survey that globally, about 2/3 of individuals are not financially literate. 
+
+<img width="870" height="334" alt="image" src="https://github.com/user-attachments/assets/2e87a5e1-a273-4b59-9de7-9064b05255e3" />
+
+Faceting the treatment by gender, we see an interesting pattern. A higher proportion of males is financially literate than the proportion of financially literate women. This finding is consistent with financial literacy research found in the GFLS and a RAND American Life Panel regarding the gender gap in financial literacy.
+
+<img width="1240" height="376" alt="image" src="https://github.com/user-attachments/assets/cb0d52c8-870e-4504-beaf-4e82fbdccd45" />
+The ridge plot above suggests that, in aggregate, as an individual achieves higher educational attainment, their overall financial well-being increases as well. 
+
 ## Project Organization
 
 ```
