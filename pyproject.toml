@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "causal_inferance"
+version = "0.0.1"
+description = "Many research papers that analyze factors that contribute to financial well-being are often descriptive and do not make casual inference (Sajid, Mushtaq, Murtaza, Yahiaoui, \u0026 Pereira, 2024). They often employ OLS regression to obtain coefficient estimates that describe the impact a unit increase in a particular feature (e.g., financial literary, financial confidence) causes on financial-wellbeing. In my analysis, I intend to move past descriptive analysis by utilizing a casual machine learning framework known as double machine learning which treats observational data as if it were a randomized control trial. By assigning observations to treatment groups within covariate profiles, I will attempt to understand the average treatment affect that financial literacy has on the financial well-being."
+authors = [
+  { name = "Roydan Cruz" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+requires-python = "~=3.10.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["causal_inferance"]
+include = ["pyproject.toml", "causal_inferance/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["causal_inferance"]
+force-sort-within-sections = true
+
