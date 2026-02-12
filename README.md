@@ -18,6 +18,13 @@ Ordinary least squares is one of the main methods employed, and its purpose in t
 
 The method employed to evaluate the causality between financial literacy and financial well-being is double machine learning. This method attempts to partial out the effects of the confounders from the treatment (i.e., being financially literate in this case) and financial well-being. With the effect of the confounders removed on the treatment and financial well-being, the average treatment effect of being financially literate on financial well-being can be estimated to gather causal insights. 
 
+## Summary of findings
+An important finding is that the indicator variable of whether a participant is financially literate is statistically significant $(t=2.233, p<0.05)$ in our baseline model. On average, after controlling for all other variables, being financially literate is associated with a moderate increase in financial well-being. The statistically significant finding is consistent with other research on financial literacy and its relationship with financial well-being.
+
+<img width="984" height="584" alt="image" src="https://github.com/user-attachments/assets/4cef7032-22bc-43db-b04b-f3bbc73693e4" />
+
+
+After accounting for all covariates, there is no causal impact caused by financial literacy on financial well-being. The average treatment effect is -0.001 with a 95% confidence interval of [-0.035, 0.034]. Since the confidence interval includes 0, the estimated average treatment effect is not statistically different from zero. This finding suggests that the causal effect of outcomes on financial well-being is more complex. Given the statistically significant results found in our OLS regression and its relation with saving and consumption theory, we can say that financial literacy likely still plays a pivotal role in financial well-being, although other factors may have to be considered. For instance, research by Muhammad Sajid and others found a strong positive impact of financial literacy and financial confidence on financial well-being with the intervening effect of financial behaviors ( M. Sajid et al., Financial literacy, confidence and well-being: The mediating role of financial behavior, 2024). This suggests that financial well-being is not just a factor of absolute financial knowledge, but rather a combination of the confidence to act upon this knowledge, shaping an individual's financial behaviors to seek the optimal balance of consumption, saving, and investing for their current financial situation.
 
 ## Other Key Findings
 <img width="499" height="570" alt="image" src="https://github.com/user-attachments/assets/faf60542-2ba3-4b8f-89d1-aa278ccbe8aa" />
@@ -65,4 +72,6 @@ The ridge plot above suggests that, in aggregate, as an individual achieves high
 ```
 
 --------
+
+
 
