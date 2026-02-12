@@ -69,6 +69,18 @@ The ridge plot above suggests that, in aggregate, as an individual achieves high
 │
 └── setup.cfg          <- Configuration file for flake8
 
+
+## Reproducibility 
+1.	Create a virtual environment
+2.	Download the project dependencies via the requirements.txt file in this repository
+3.	Download the 2024 NFCS data - https://finrafoundation.org/data-and-downloads
+4.	Place the data in a repository that can be referenced by jupyter notebook.
+5.	Download the notebook 
+6.	Open the notebook and change the “pd.read_csv()” to read the data from your designated repository
+7.	Run the remainder of the code
+
+
+
 ```
 
 --------
