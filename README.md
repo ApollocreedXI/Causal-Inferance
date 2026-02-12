@@ -1,4 +1,7 @@
 # Causal Inferance
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f2031056-d351-491f-9545-45507643d869" />
+
+
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
