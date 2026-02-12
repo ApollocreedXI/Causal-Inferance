@@ -16,6 +16,9 @@ The project utilizes 2024 survey data from the National Financial Capabilities S
 ## Main methods used
 Ordinary least squares is one of the main methods employed, and its purpose in this project is for baseline modeling. This modeling methodology attempts to find the regression line that minimizes the squared prediction error of all the data points from the regression line. The purpose of this baseline model is to investigate if being financially literate, as defined by Lusardi and Mitchell, provides a statistically significant improved outcome on financial well-being. 
 
+<img width="623" height="463" alt="image" src="https://github.com/user-attachments/assets/70bce2b4-418f-46df-abfa-789e0423dee0" />
+
+
 The method employed to evaluate the causality between financial literacy and financial well-being is double machine learning. This method attempts to partial out the effects of the confounders from the treatment (i.e., being financially literate in this case) and financial well-being. With the effect of the confounders removed on the treatment and financial well-being, the average treatment effect of being financially literate on financial well-being can be estimated to gather causal insights. 
 
 ## Summary of findings
